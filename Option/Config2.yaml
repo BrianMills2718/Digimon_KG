@@ -19,10 +19,9 @@ embedding:
   embed_batch_size: 128
   embedding_func_max_async: 16
 
-# Data
-working_dir: ./test_book # Result directory for the experiment
-index_name: tree_graph
-exp_name: test_patroat # Experiment name
-vdb_type: vector  # vector/colbert
 data_root: ./Data # Root directory for data
 dataset_name: HotpotQA # Dataset name
+
+
+working_dir: ./test_book # Result directory for the experiment
+exp_name: test_patroat # Experiment name
