@@ -21,7 +21,5 @@ embedding:
  
 data_root: ./Data # Root directory for data
 
-
-
 working_dir: ./test_book # Result directory for the experiment
-exp_name: test_patroat # Experiment name
+exp_name: test_tog # Experiment name
