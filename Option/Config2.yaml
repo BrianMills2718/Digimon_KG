@@ -12,8 +12,9 @@ embedding:
   api_type: "hf"  # or  ollama / etc.
   base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
   # api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
-  api_key: "dsdsd"
+  api_key: "our_api_key"
   model: "BAAI/bge-m3"
+  cache_dir: "/mnt/data/yingli/GraphRAG/embedding_cache"
   dimensions: 128
   max_token_size: 8102
   embed_batch_size: 128
