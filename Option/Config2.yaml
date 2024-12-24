@@ -12,9 +12,15 @@ embedding:
   api_type: "openai"  # or  ollama / etc.
   base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
   # api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
+<<<<<<< HEAD
   api_key: "sk-STmQ0VyP26d5093497aET3BLbkFJAB535192D50E4dB8AeC8"
   model: "text-embedding-3-small"
   cache_dir: "/mnt/data/yingli/GraphRAG/embedding_cache"
+=======
+  api_key: "our_api_key"
+  model: "BAAI/bge-m3"
+  cache_dir: ""
+>>>>>>> c7c25c2bebddc4e1eec11202d4354ec03fba5e78
   dimensions: 128
   max_token_size: 8102
   embed_batch_size: 128
