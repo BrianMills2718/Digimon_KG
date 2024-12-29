@@ -1,20 +1,21 @@
 llm:
-  # api_type: open_llm
-  # base_url: 'http://0.0.0.0:30000/v1'
-  # model: 'gpt-3.5-turbo'
-  api_type: "openai"  # or ollama  etc.
-  base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
-  api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
-  model: "TA/meta-llama/Llama-3-8b-chat-hf"
+  api_type: "openai"
+  base_url: 'https://cfcus02.opapi.win/v1'
+  model: 'gpt-3.5-turbo'
+  # api_type: "openai"  # or ollama  etc.
+  # base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
+  # model: "TA/meta-llama/Llama-3-8b-chat-hf"
+  # api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
+  api_key: "sk-STmQ0VyP26d5093497aET3BLbkFJAB535192D50E4dB8AeC8"
 
 
 embedding:
-  api_type: "hf"  # or  ollama / etc.
+  api_type: "openai"  # or  ollama / etc.
   base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
   # api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
-  api_key: "our_api_key"
-  model: "BAAI/bge-m3"
-  cache_dir: ""
+  api_key: "sk-STmQ0VyP26d5093497aET3BLbkFJAB535192D50E4dB8AeC8"
+  model: "text-embedding-3-small"
+  cache_dir: "/mnt/data/yingli/GraphRAG/embedding_cache"
   dimensions: 128
   max_token_size: 8102
   embed_batch_size: 128
@@ -26,6 +27,6 @@ data_root: /mnt/data/wangshu/hcarag/ids_data # Root directory for data
 # exp_name: test_tog # Experiment name
 
 
-working_dir: /mnt/data/yingli/GraphRAG # Result directory for the experiment
-exp_name: lamma8b_hipporag # Experiment name
+working_dir: ./ # Result directory for the experiment
+exp_name: dalk # Experiment name
 # 
