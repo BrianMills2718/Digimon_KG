@@ -1,12 +1,13 @@
 llm:
-  api_type: "openai"
+  api_type: "open_llm"
+  # api_type: "openai"
   base_url: 'https://cfcus02.opapi.win/v1'
-  model: 'gpt-3.5-turbo'
+  # model: 'gpt-3.5-turbo'
   # api_type: "openai"  # or ollama  etc.
   # base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
-  # model: "TA/meta-llama/Llama-3-8b-chat-hf"
-  # api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
-  api_key: "sk-STmQ0VyP26d5093497aET3BLbkFJAB535192D50E4dB8AeC8"
+  model: "TA/meta-llama/Llama-3-8b-chat-hf"
+  api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
+  # api_key: "sk-STmQ0VyP26d5093497aET3BLbkFJAB535192D50E4dB8AeC8"
 
 
 embedding:
