@@ -9,14 +9,13 @@ llm:
   api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
   # api_key: "sk-STmQ0VyP26d5093497aET3BLbkFJAB535192D50E4dB8AeC8"
 
-
 embedding:
-  api_type: "openai"  # or  ollama / etc.
-  base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
+  api_type: "hf"  # or  ollama / etc.
+  # base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
   # api_key: "sk-XVBaWFFC3af98090Dc32T3BLbkFJ0Ba9481790144B1eaA6B"
   api_key: "sk-STmQ0VyP26d5093497aET3BLbkFJAB535192D50E4dB8AeC8"
-  model: "text-embedding-3-small"
-  cache_dir: "/mnt/data/yingli/GraphRAG/embedding_cache"
+  model: "BAAI/bge-m3"
+  cache_dir: ""
   dimensions: 128
   max_token_size: 8102
   embed_batch_size: 128
