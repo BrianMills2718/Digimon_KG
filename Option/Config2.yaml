@@ -1,10 +1,8 @@
 llm:
-  api_type: "open_llm"
+  api_type: "open_llm" # openai
   # api_type: "openai"
   base_url: 'YOUR_BASE_URL'
-  # model: 'gpt-3.5-turbo'
-  # api_type: "openai"  # or ollama  etc.
-  model: "llama3.1:8b8k"
+  model: "YOUR_MODEL"
   api_key: "YOUR_API_KEY"
 
 embedding:
