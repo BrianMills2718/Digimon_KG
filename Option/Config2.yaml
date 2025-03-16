@@ -1,6 +1,5 @@
 llm:
-  api_type: "open_llm" # openai
-  # api_type: "openai"
+  api_type: "open_llm" # or openai
   base_url: 'YOUR_BASE_URL'
   model: "YOUR_MODEL"
   api_key: "YOUR_API_KEY"
