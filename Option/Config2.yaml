@@ -5,10 +5,10 @@ llm:
   api_key: "YOUR_API_KEY"
 
 embedding:
-  api_type: "hf"  # or  ollama / etc.
+  api_type: "hf"  # or  ollama / openai.
   # base_url: "https://cfcus02.opapi.win/v1"  # or forward url / other llm url
   api_key: "YOUR_API_KEY"
-  model: "BAAI/bge-m3"
+  model: "YOURMODEL"
   cache_dir: ""
   dimensions: 1024
   max_token_size: 8102
